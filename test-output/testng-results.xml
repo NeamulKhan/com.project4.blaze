@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-05-01T17:00:20 EDT" name="Default suite" finished-at="2023-05-01T17:00:36 EDT" duration-ms="15891">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner_project4.TestRunner_project4@231f98ef]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-05-01T17:00:20 EDT" name="Default test" finished-at="2023-05-01T17:00:36 EDT" duration-ms="15891">
+      <class name="testRunner_project4.TestRunner_project4">
+        <test-method is-config="true" signature="blazesetup()[pri:0, instance:testRunner_project4.TestRunner_project4@231f98ef]" started-at="2023-05-01T17:00:20 EDT" name="blazesetup" finished-at="2023-05-01T17:00:33 EDT" duration-ms="13030" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blazesetup -->
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testRunner_project4.TestRunner_project4@231f98ef]" started-at="2023-05-01T17:00:33 EDT" name="setUpClass" finished-at="2023-05-01T17:00:33 EDT" duration-ms="265" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner_project4.TestRunner_project4@231f98ef]" started-at="2023-05-01T17:00:33 EDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-05-01T17:00:36 EDT" duration-ms="2257" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[this feature is for sign up functionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner_project4.TestRunner_project4@231f98ef]" started-at="2023-05-01T17:00:36 EDT" name="tearDownClass" finished-at="2023-05-01T17:00:36 EDT" duration-ms="53" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method is-config="true" signature="blazeClosureURL()[pri:0, instance:testRunner_project4.TestRunner_project4@231f98ef]" started-at="2023-05-01T17:00:36 EDT" name="blazeClosureURL" finished-at="2023-05-01T17:00:36 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- blazeClosureURL -->
+      </class> <!-- testRunner_project4.TestRunner_project4 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
