@@ -3,19 +3,19 @@
     "line": 1,
     "elements": [
       {
-        "line": 3,
-        "name": "verify user can successfully sign up with valid credential",
+        "line": 5,
+        "name": "verify item added in cart",
         "description": "",
-        "id": "this-feature-is-for-sign-up-functionality;verify-user-can-successfully-sign-up-with-valid-credential",
+        "id": "this-feature-is-for-cart-functionality;verify-item-added-in-cart",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-              "duration": 2132141612,
+              "duration": 1527426838,
               "status": "passed"
             },
-            "line": 6,
+            "line": 7,
             "name": "Launch \"\u003cURL\u003e\"",
             "match": {
               "arguments": [
@@ -27,14 +27,74 @@
               "location": "Signup_Project4.launch(String)"
             },
             "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10627382624,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "click sony vaio i5",
+            "match": {
+              "arguments": [
+                {
+                  "val": "5",
+                  "offset": 17
+                }
+              ],
+              "location": "Cart_Project4.click_sony_vaio_i(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5498141767,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "click add to cart button",
+            "match": {
+              "location": "Cart_Project4.click_add_to_cart_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 5641999707,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "click cart link",
+            "match": {
+              "location": "Cart_Project4.click_cart_link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1373905186,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "verify item added in the cart",
+            "match": {
+              "location": "Cart_Project4.verify_item_added_in_the_cart()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@Cart"
           }
         ]
       }
     ],
-    "name": "this feature is for sign up functionality",
+    "name": "This feature is for cart functionality",
     "description": "",
-    "id": "this-feature-is-for-sign-up-functionality",
+    "id": "this-feature-is-for-cart-functionality",
     "keyword": "Feature",
-    "uri": "Signup_Project4.feature"
+    "uri": "Cart_Project4.feature"
   }
 ]

@@ -10,7 +10,7 @@ import utility.BaseClass_Project4;
 
 @CucumberOptions(features = {"src/test/resource/FeatureFolder_Project4"},
 plugin = {"json:target/cucumber.json"},
-glue ="stepDefination_Project4" //tags= {"@OrderConf"}//@BlazeLogin,@BlazeAboutUs,@BlazeCart,@OrderConf
+glue ="stepDefination_Project4", tags= {"@Order_Conf"}//@Login,@Signup,@Cart
 )
 
 public class TestRunner_project4 extends AbstractTestNGCucumberTests{
