@@ -4,27 +4,23 @@
     "elements": [
       {
         "line": 5,
-        "name": "verify item added in cart",
+        "name": "verify contact link works successfully",
         "description": "",
-        "id": "this-feature-is-for-cart-functionality;verify-item-added-in-cart",
+        "id": "this-feature-is-for-contact-link-functionality;verify-contact-link-works-successfully",
         "type": "scenario",
         "keyword": "Scenario",
         "steps": [
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 1527426838,
-=======
-              "duration": 2278477822,
->>>>>>> b0e16fe479248c45180d59e15bb5ebdafef1b0b5
+              "duration": 5243399616,
               "status": "passed"
             },
             "line": 7,
-            "name": "Launch \"\u003cURL\u003e\"",
+            "name": "Launch \"\u003cURL\"",
             "match": {
               "arguments": [
                 {
-                  "val": "\u003cURL\u003e",
+                  "val": "\u003cURL",
                   "offset": 8
                 }
               ],
@@ -34,71 +30,37 @@
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 10627382624,
-=======
-              "duration": 10569699301,
->>>>>>> b0e16fe479248c45180d59e15bb5ebdafef1b0b5
+              "duration": 1142834213,
               "status": "passed"
             },
             "line": 8,
-            "name": "click sony vaio i5",
+            "name": "click contact link",
             "match": {
-              "arguments": [
-                {
-                  "val": "5",
-                  "offset": 17
-                }
-              ],
-              "location": "Cart_Project4.click_sony_vaio_i(int)"
+              "location": "Contact_Project4.click_contact_link()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 5498141767,
-=======
-              "duration": 5392048793,
->>>>>>> b0e16fe479248c45180d59e15bb5ebdafef1b0b5
+              "duration": 37357,
               "status": "passed"
             },
             "line": 9,
-            "name": "click add to cart button",
+            "name": "enter email,name, message and click send message button",
             "match": {
-              "location": "Cart_Project4.click_add_to_cart_button()"
+              "location": "Contact_Project4.enter_email_name_message_and_click_send_message_button()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-<<<<<<< HEAD
-              "duration": 5641999707,
-=======
-              "duration": 5875355764,
->>>>>>> b0e16fe479248c45180d59e15bb5ebdafef1b0b5
+              "duration": 22167,
               "status": "passed"
             },
             "line": 10,
-            "name": "click cart link",
+            "name": "verify received msg and click ok button",
             "match": {
-              "location": "Cart_Project4.click_cart_link()"
-            },
-            "keyword": "Then "
-          },
-          {
-            "result": {
-<<<<<<< HEAD
-              "duration": 1373905186,
-=======
-              "duration": 1540336714,
->>>>>>> b0e16fe479248c45180d59e15bb5ebdafef1b0b5
-              "status": "passed"
-            },
-            "line": 11,
-            "name": "verify item added in the cart",
-            "match": {
-              "location": "Cart_Project4.verify_item_added_in_the_cart()"
+              "location": "Contact_Project4.verify_received_msg_and_click_ok_button()"
             },
             "keyword": "Then "
           }
@@ -106,15 +68,15 @@
         "tags": [
           {
             "line": 3,
-            "name": "@Cart"
+            "name": "@Contact"
           }
         ]
       }
     ],
-    "name": "This feature is for cart functionality",
+    "name": "This feature is for contact link functionality",
     "description": "",
-    "id": "this-feature-is-for-cart-functionality",
+    "id": "this-feature-is-for-contact-link-functionality",
     "keyword": "Feature",
-    "uri": "Cart_Project4.feature"
+    "uri": "Contact_Project4.feature"
   }
 ]

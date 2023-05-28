@@ -35,5 +35,12 @@ public class Project4HomePageAction extends BaseClass_Project4 {
 		
 		project4HomePageLocator.sonyvaioi5.click();
 	}
+	
+	public void clickContactLink() {
+		
+		
+		project4HomePageLocator.contactLink.click();
+		
+	}
 
 }
