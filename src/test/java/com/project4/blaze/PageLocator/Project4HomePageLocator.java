@@ -26,4 +26,10 @@ public class Project4HomePageLocator extends BaseClass_Project4{
 	@FindBy(xpath="//*[@id=\"tbodyid\"]/div[8]/div/div/h4/a")
 	
 	public WebElement sonyvaioi5;
+	
+	@FindBy (className="nav-link")
+	
+	public WebElement contactLink;
+	
+	
 }
