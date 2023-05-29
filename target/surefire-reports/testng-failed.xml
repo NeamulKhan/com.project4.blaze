@@ -5,8 +5,8 @@
     <classes>
       <class name="testRunner_project4.TestRunner_project4">
         <methods>
-          <include name="setUpClass"/>
           <include name="feature" invocation-numbers="0"/>
+          <include name="setUpClass"/>
           <include name="blazesetup"/>
           <include name="tearDownClass"/>
           <include name="blazeClosureURL"/>
