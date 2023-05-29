@@ -2,23 +2,23 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-05-28T18:28:42 EDT" name="Surefire suite" finished-at="2023-05-28T18:29:15 EDT" duration-ms="33297">
+  <suite started-at="2023-05-28T20:10:28 EDT" name="Surefire suite" finished-at="2023-05-28T20:10:58 EDT" duration-ms="30901">
     <groups>
       <group name="cucumber">
         <method signature="AbstractTestNGCucumberTests.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner_project4.TestRunner_project4@10d307f1]" name="feature" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
       </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-05-28T18:28:42 EDT" name="Surefire test" finished-at="2023-05-28T18:29:15 EDT" duration-ms="33297">
+    <test started-at="2023-05-28T20:10:28 EDT" name="Surefire test" finished-at="2023-05-28T20:10:58 EDT" duration-ms="30901">
       <class name="testRunner_project4.TestRunner_project4">
-        <test-method is-config="true" signature="blazesetup()[pri:0, instance:testRunner_project4.TestRunner_project4@10d307f1]" started-at="2023-05-28T18:28:42 EDT" name="blazesetup" finished-at="2023-05-28T18:29:07 EDT" duration-ms="25223" status="PASS">
+        <test-method is-config="true" signature="blazesetup()[pri:0, instance:testRunner_project4.TestRunner_project4@10d307f1]" started-at="2023-05-28T20:10:28 EDT" name="blazesetup" finished-at="2023-05-28T20:10:40 EDT" duration-ms="12133" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- blazesetup -->
-        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testRunner_project4.TestRunner_project4@10d307f1]" started-at="2023-05-28T18:29:07 EDT" name="setUpClass" finished-at="2023-05-28T18:29:08 EDT" duration-ms="626" status="PASS">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:testRunner_project4.TestRunner_project4@10d307f1]" started-at="2023-05-28T20:10:40 EDT" name="setUpClass" finished-at="2023-05-28T20:10:40 EDT" duration-ms="242" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUpClass -->
-        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner_project4.TestRunner_project4@10d307f1]" started-at="2023-05-28T18:29:09 EDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-05-28T18:29:15 EDT" duration-ms="6724" status="PASS">
+        <test-method signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:testRunner_project4.TestRunner_project4@10d307f1]" started-at="2023-05-28T20:10:40 EDT" name="feature" description="Runs Cucumber Feature" data-provider="features" finished-at="2023-05-28T20:10:58 EDT" duration-ms="18281" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -29,11 +29,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- feature -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner_project4.TestRunner_project4@10d307f1]" started-at="2023-05-28T18:29:15 EDT" name="tearDownClass" finished-at="2023-05-28T18:29:15 EDT" duration-ms="175" status="PASS">
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:testRunner_project4.TestRunner_project4@10d307f1]" started-at="2023-05-28T20:10:58 EDT" name="tearDownClass" finished-at="2023-05-28T20:10:58 EDT" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDownClass -->
-        <test-method is-config="true" signature="blazeClosureURL()[pri:0, instance:testRunner_project4.TestRunner_project4@10d307f1]" started-at="2023-05-28T18:29:15 EDT" name="blazeClosureURL" finished-at="2023-05-28T18:29:15 EDT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="blazeClosureURL()[pri:0, instance:testRunner_project4.TestRunner_project4@10d307f1]" started-at="2023-05-28T20:10:58 EDT" name="blazeClosureURL" finished-at="2023-05-28T20:10:58 EDT" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- blazeClosureURL -->
